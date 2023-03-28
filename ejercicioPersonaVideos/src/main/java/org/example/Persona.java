@@ -5,6 +5,14 @@ public class Persona {
     private String nombre, apellido;
     private int edad;
 
+    public Persona(int documento, String nombre, String apellido, int edad) {
+        this.documento = documento;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+    }
+
+
     public int getDocumento() {
         return documento;
     }
